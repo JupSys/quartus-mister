@@ -16,6 +16,6 @@ ADD files/ /
 # install quartus prime
 RUN mkdir -p /root/quartus && \
     cd /root/quartus && \
-    wget -q http://download.altera.com/akdlm/software/acdsinst/19.1std/670/ib_tar/Quartus-lite-19.1.0.670-linux.tar && \
-    tar xvf Quartus-lite-19.1.0.670-linux.tar && \
-    /root/setup 19.1 && rm -rf /root/quartus && rm -rf /root/setup*
+    wget -q http://download.altera.com/akdlm/software/acdsinst/17.0std/595/ib_tar/Quartus-lite-17.0.0.595-linux.tar && \
+    tar xvf Quartus-lite-17.0.0.595-linux.tar && \
+    /root/setup 17.0 && rm -rf /root/quartus && rm -rf /root/setup*
