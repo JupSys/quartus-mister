@@ -15,3 +15,5 @@ RUN mkdir -p /root/quartus && \
 ADD files/ /
 
 RUN cd /root/quartus && /root/setup 17.0 && rm -rf /root/quartus && rm -rf /root/setup*
+
+ENV LD_PRELOAD /usr/lib/libtcmalloc_minimal.so.4:/usr/lib/x86_64-linux-gnu/libstdc++.so.6
