@@ -8,7 +8,7 @@ fi
 
 mesg n
 export LC_ALL="en_US.UTF-8"
-export LD_PRELOAD=/usr/lib/libtcmalloc_minimal.so.4
+export LD_PRELOAD=/usr/lib/libtcmalloc_minimal.so.4:/usr/lib/x86_64-linux-gnu/libstdc++.so.6
 alias l='ls -alF'
 alias ll='ls -alF'
 alias ..='cd ..'
